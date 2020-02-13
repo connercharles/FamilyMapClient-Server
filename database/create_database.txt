@@ -1,0 +1,50 @@
+drop table if exists Users;
+drop table if exists Persons;
+drop table if exists Events;
+drop table if exists AuthTokens;
+
+create table Users
+(
+    UserName text not null primary key unique,
+    PersonID text not null unique,
+    Password text not null,
+    Email text not null,
+    FirstName text not null,
+    LastName text not null,
+    Gender text,
+    foreign key(PersonID) references PersonID(PersonID)
+);
+
+create table Persons
+(
+    PersonID text not null primary key unique,
+    UserName text not null unique,
+    Password text not null,
+    Email text not null,
+    FirstName text not null,
+    LastName text not null,
+    Gender text,
+    foreign key(UserName) references UserName(UserName)
+);
+
+create table Events
+(
+    EventID text not null primary key unique,
+    AssociatedUsername text not null,
+    PersonID text not null,
+    Latitude float not null,
+    Longitude float not null,
+    Country text not null,
+    City text not null,
+    EventType text not null,
+    Year int not null,
+    foreign key (AssociatedUsername) references Users(UserName),
+    foreign key (PersonID) references Persons(PersonID)
+);
+
+create table AuthTokens
+(
+    AuthKey text not null primary key unique,
+    UserName text not null,
+    foreign key (UserName) references UserName(UserName)
+);

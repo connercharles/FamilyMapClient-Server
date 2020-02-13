@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Family Map Client</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">User Name:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="password">Password:</string>
+    <string name="male">Male</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="server_host">Server Host:</string>
+    <string name="register">register</string>
+    <string name="female">female</string>
+    <string name="filter_events_based_on_gender">FILTER EVENTS BASED ON GENDER</string>
+    <string name="show_life_story_lines">SHOW LIFE STORY LINES</string>
+    <string name="show_spouse_lines">SHOW SPOUSE LINES</string>
+    <string name="show_family_tree_lines">SHOW FAMILY TREE LINES</string>
+    <string name="filter_by_father_s_side_of_family">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="filter_by_mother_s_side_of_family">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="return_to_login_screen">RETURN TO LOGIN SCREEN</string>
+    <string name="mother_s_side">Mother\'s Side</string>
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="logout">Logout</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="father_s_side">Father\'s Side</string>
+    <string name="male_events">Male Events</string>
+    <string name="female_events">Female Events</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search">Search...</string>
+    <string name="click_on_a_marker_to_see_event_details">Click on a marker to see event details</string>
+    <string name="settings">settings</string>
+    <string name="searchMenu">search</string>
+    <string name="eventsTitle">LIFE EVENTS</string>
+    <string name="personsTitle">FAMILY</string>
+    <string name="name">Name</string>
+    <string name="first_namePerson">First Name</string>
+    <string name="last_namePerson">Last Name</string>
+    <string name="genderPerson">Gender</string>
+    <string name="_10_0_2_2">10.0.2.2</string>
+    <string name="_8081">8081</string>
+    <string name="femaleLogin">Female</string>
+    <string name="todo">TODO</string>
+
+
+</resources>
